@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shauryas.teststudyplan" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".InitializeParse"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/title_activity_login_screen" >
+        </activity>
+        <activity
+            android:name=".SignUpScreen"
+            android:label="@string/title_activity_sign_up_screen" >
+        </activity>
+        <activity
+            android:name=".TestPlanScreen"
+            android:label="@string/title_activity_test_plan_screen" >
+        </activity>
+        <activity
+            android:name=".MakeTestPlan"
+            android:label="@string/title_activity_make_test_plan" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".DisplayTestPlan"
+            android:label="@string/title_activity_display_test_plan" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test Study Plan</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_sign_up_screen">SignUpScreen</string>
+    <string name="title_activity_test_plan_screen">TestPlanScreen</string>
+    <string name="title_activity_make_test_plan">MakeTestPlan</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_display_test_plan">DisplayTestPlan</string>
+</resources>
